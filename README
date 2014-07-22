@@ -1,13 +1,13 @@
 
-This is a short readme describing the layout of PyEmu.
+### The layout of PyEmu.
 
-PyContext.py: A module containing a class for defining a context to pass between modules in the emulator
-PyCPU.py: The CPU class implements each instruction and is responsible for executing and maintaining state
-PyDebug.py: A simple class to ease some debugging tasks
-PyEmu.py: The user facing class that implements the public methods available for use.  Also is responsible for initiating the memory and cpu classes
-PyInstruction.py: A helper class for providing abstracted access to the pydasm instruction structures
-PyMemory.py: A module containing the memory managers responsible for fetching and storing memory
-PyOS.py: A rough implementation of needed OS specific structures for process creation and control.
+* PyContext.py - A module containing a class for defining a context to pass between modules in the emulator
+* PyCPU.py - The CPU class implements each instruction and is responsible for executing and maintaining state
+* PyDebug.py - A simple class to ease some debugging tasks
+* PyEmu.py - The user facing class that implements the public methods available for use.  Also is responsible for initiating the memory and cpu classes
+* PyInstruction.py - A helper class for providing abstracted access to the pydasm instruction structures
+* PyMemory.py - A module containing the memory managers responsible for fetching and storing memory
+* PyOS.py - A rough implementation of needed OS specific structures for process creation and control.
 
 examples/
     idapyemu.py: A simple example of using PyEmu in IDA Pro
